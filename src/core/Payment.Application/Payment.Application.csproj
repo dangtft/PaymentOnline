@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Fetures\PaymentDestination\Queries\" />
+    <Folder Include="Fetures\PaymentNotification\Commands\" />
+    <Folder Include="Fetures\PaymentNotification\Queries\" />
+    <Folder Include="Fetures\PaymentSignature\Commands\" />
+    <Folder Include="Fetures\PaymentSignature\Queries\" />
+    <Folder Include="Fetures\PaymentTransaction\Commands\" />
+    <Folder Include="Fetures\PaymentTransaction\Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.15" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.8.15" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\infras\Payment.Service\Payment.Service.csproj" />
+    <ProjectReference Include="..\Payment.Domain\Payment.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

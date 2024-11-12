@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\Payment.Service.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\Payment.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\Payment.Service.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\Payment.Service.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\Payment.Service.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\bin\Debug\net8.0\Payment.Service.deps.json
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\bin\Debug\net8.0\Payment.Service.dll
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\bin\Debug\net8.0\Payment.Service.pdb
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\bin\Debug\net8.0\Payment.Untils.dll
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\bin\Debug\net8.0\Payment.Untils.pdb
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\Payment.Service.csproj.CopyComplete
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\Payment.Service.dll
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\refint\Payment.Service.dll
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\Payment.Service.pdb
+C:\Users\Admin\Desktop\Payment\src\infras\Payment.Service\obj\Debug\net8.0\ref\Payment.Service.dll

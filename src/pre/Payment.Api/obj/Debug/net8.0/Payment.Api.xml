@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Payment.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Payment.Api.Controllers.MerchantsController.Get(System.String)">
+            <summary>
+            Get merchants base on criteria
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.MerchantsController.GetPaging(Payment.Application.Base.Models.BasePagingQuery)">
+            <summary>
+            Get merchants paging
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.MerchantsController.GetOne(System.String)">
+            <summary>
+            Get one merchant by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.MerchantsController.Create(Payment.Application.Fetures.Merchant.Commands.CreateMerchant)">
+            <summary>
+            Create merchant
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+            <remarks>
+            
+                POST /merchants
+                {
+                    "MerchantName" : "Website bán hàng A",
+                    "MerchantWebLink" : "https://webbanhang.com",
+                    "MerchantIpnUrl" : "https://webbanhang.com/ipn",
+                    "MerchantReturnUrl" : "https://webbanhang.com/payment/return"
+                }
+            
+            </remarks>
+        </member>
+        <member name="M:Payment.Api.Controllers.MerchantsController.Update(System.String,Payment.Application.Fetures.Merchant.Commands.UpdateMerchant)">
+            <summary>
+            Update merchant
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.MerchantsController.SetActive(System.String,Payment.Application.Fetures.Merchant.Commands.SetActiveMerchant)">
+            <summary>
+            Set Active Flag
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.MerchantsController.Delete(System.String)">
+            <summary>
+            Delete merchant
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentDestinationsController.Get(System.String)">
+            <summary>
+            Get merchants base on criteria
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentDestinationsController.GetPaging(Payment.Application.Base.Models.BasePagingQuery)">
+            <summary>
+            Get merchants paging
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentDestinationsController.GetOne(System.String)">
+            <summary>
+            Get one merchant by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentDestinationsController.Create(Payment.Application.Fetures.PaymentDestination.Commands.CreatePaymentDestination)">
+            <summary>
+            Create merchant
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+            <remarks>
+            
+                POST /payment-destinations
+                {
+                    "DesName" : "Cổng thanh toán VNPay",
+                    "DesShortName" : "VNPay Pay",
+                    "DesParentId" : null,
+                    "DesLogo" : "https://sandbox.vnpayment.vn/apis/assets/images/partner_deeplink.png",
+                    "SortIndex" : 0
+                }
+            
+            </remarks>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentDestinationsController.Update(System.String,Payment.Application.Fetures.PaymentDestination.Commands.UpdatePaymentDestination)">
+            <summary>
+            Update merchant
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentDestinationsController.SetActive(System.String,Payment.Application.Fetures.PaymentDestination.Commands.SetActivePaymentDestination)">
+            <summary>
+            Set Active Flag
+            </summary>
+            <param name="id"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentDestinationsController.Delete(System.String)">
+            <summary>
+            Delete merchant
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentNotificationsController.Get(System.String)">
+            <summary>
+            Get notifications base on criteria
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentNotificationsController.GetPaging(Payment.Application.Base.Models.BasePagingQuery)">
+            <summary>
+            Get notifications paging
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentNotificationsController.GetOne(System.String)">
+            <summary>
+            Get one notification by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentsController.#ctor(MediatR.IMediator,Microsoft.Extensions.Options.IOptions{Payment.Service.VnPay.Config.VnpayConfig})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="mediator"></param>
+            <param name="vnpayConfigOptions"></param>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentsController.Create(Payment.Application.Fetures.Payment.Commands.CreatePayment)">
+            <summary>
+            Create payment to get link
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentSignaturesController.Get(System.String)">
+            <summary>
+            Get signatures base on criteria
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentSignaturesController.GetPaging(Payment.Application.Base.Models.BasePagingQuery)">
+            <summary>
+            Get signatures paging
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentSignaturesController.GetOne(System.String)">
+            <summary>
+            Get one signature by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentTransactionsController.Get(System.String)">
+            <summary>
+            Get transactions base on criteria
+            </summary>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentTransactionsController.GetPaging(Payment.Application.Base.Models.BasePagingQuery)">
+            <summary>
+            Get transactions paging
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.Api.Controllers.PaymentTransactionsController.GetOne(System.String)">
+            <summary>
+            Get one transaction by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

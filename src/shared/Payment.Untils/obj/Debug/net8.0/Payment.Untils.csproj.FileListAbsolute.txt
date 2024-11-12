@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\bin\Debug\net8.0\Payment.Untils.deps.json
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\bin\Debug\net8.0\Payment.Untils.dll
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\bin\Debug\net8.0\Payment.Untils.pdb
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\obj\Debug\net8.0\Payment.Untils.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\obj\Debug\net8.0\Payment.Untils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\obj\Debug\net8.0\Payment.Untils.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\obj\Debug\net8.0\Payment.Untils.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\obj\Debug\net8.0\Payment.Untils.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\obj\Debug\net8.0\Payment.Untils.dll
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\obj\Debug\net8.0\refint\Payment.Untils.dll
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\obj\Debug\net8.0\Payment.Untils.pdb
+C:\Users\Admin\Desktop\Payment\src\shared\Payment.Untils\obj\Debug\net8.0\ref\Payment.Untils.dll
